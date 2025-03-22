@@ -1,0 +1,31 @@
+Sesión dos:
+
+Tarea:
+3.- false||!(true&&(false||false))= false||!(true&&false)
+                                                     false||!(false)
+                                                     false||true
+                                                     true
+
+4.- !(false||true||false||false)= !(true||false||false)
+                                                  !(true||false)
+                                                  !(true)
+                                                  false
+
+5.- !(!false&&true)&&!(false||true)= !(!false&&true)&&!(true)
+                                                       !(!false&&true)&&false
+                                                       !(true&&true)&&false
+                                                       !(true&&true)&&false
+                                                       !(true)&&false
+                                                       false&&false
+                                                       false
+
+Ejercicios (lote dos)
+1.- V AND F= F
+2.- F OR V= V
+3.- NOT(V AND V)= NOT(V)= F
+4.- NOT (F OR F)= NOT (F) = V
+5.- V OR (F AND F)= V OR (F) = V
+6.- (F OR V) AND (F OR F)= (V) AND (F)= F
+7.- (F AND V) OR NOT (F AND F)= (F) OR NOT (F)= F OR V= V
+
+                                                      
