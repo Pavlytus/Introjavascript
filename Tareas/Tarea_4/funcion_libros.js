@@ -33,3 +33,4 @@ function mostrarLibrosLeidos() {
         }
     }
 }
+function agregarLibro()
