@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;    
+}
+
+body {
+    background-image: url(./libros.jpg);
+    font-family: Arial, sans-serif;
+    display:flex;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 100px transparent;    
+  }
+
+#presentacion{
+    background-color: #bbb7b7;
+    margin-top: 100px;
+    width: 70%;
+    text-align: center;
+    color:#3a0101;
+}
+
+#datos_basicos{
+    background-color: #bbb7b7;
+    margin-top: 0px;
+    width: 70%;
+    text-align: center;
+    color:#3a0101;     
+}
+
+#datos_basicos input{
+    width: 40%;
+    height: 30px;
+}
+
+  #comentarios-form {
+    margin-bottom: 100px;
+    background-color: #bbb7b7;
+    margin-top: 0px;
+    width: 70%;
+    text-align: center;
+    color:#3a0101;
+    padding-bottom: 20px; 
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #3a0101;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6a6d6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3a0101;
+  }
+  
+  #comentarios-lista {
+    margin-top: 20px;
+  }
+  
+  .comentario {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .comentario .fecha {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .comentario button {
+    background-color: #f44336;
+  }
+  
+  .comentario button:hover {
+    background-color: #e53935;
+  }
