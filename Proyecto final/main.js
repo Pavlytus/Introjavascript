@@ -1,4 +1,3 @@
-
 // Obtener referencias a los elementos
 let inputs = document.querySelectorAll('#datos_basicos input');
 let comentarioInput = document.getElementById('comentario');

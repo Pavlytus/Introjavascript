@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .comentario {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 4px;
+  }
+  
+  .fecha {
+    font-size: 0.8em;
+    color: gray;
+  }
+  
+  .eliminar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
